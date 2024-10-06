@@ -1,0 +1,40 @@
+
+<html>
+<head>
+<script type="text/javascript">
+var time = 10; //How long (in seconds) to countdown
+var page = "./"; //The page to redirect to
+function countDown(){
+time--;
+gett("container").innerHTML = time;
+if(time == 0){
+window.location = page;
+}
+}
+function gett(id){
+if(document.getElementById) return document.getElementById(id);
+if(document.all) return document.all.id;
+if(document.layers) return document.layers.id;
+if(window.opera) return window.opera.id;
+}
+function init(){
+if(gett('container')){
+setInterval(countDown, 1000);
+gett("container").innerHTML = time;
+}
+else{
+setTimeout(init, 50);
+}
+}
+document.onload = init();
+</SCRIPT>
+</head>
+<body>
+<div style="display:table; margin:auto;">
+<img src="templates/images/404.png" alt="404" align="center" />
+	<h1>Trang không tìm thấy! Vui lòng kiểm tra lại liên kết</h1>
+<h2>Tự động trở về trang chủ sau <span id="container"></span> giây(s)!</h2>
+	Hoặc click vào <a href="./">đây</a> để về trang chủ
+</div>
+</body>
+</html>

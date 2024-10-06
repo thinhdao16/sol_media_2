@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from webso.vn/web.php?web=10480 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jul 2024 16:27:01 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<!DOCTYPE html>
+<html lang="vi" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<base  />
+<link rel="canonical" href="webc2f4.html?web=">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="NOINDEX, NOFOLLOW" />
+<meta name="title" content="Mẫu website mỹ phẩm 10480" />
+<meta name="description" content="Mẫu website mỹ phẩm 10480" />
+<meta name="keywords" content="Mẫu website mỹ phẩm 10480" />
+<meta name="author" content="www.webso.vn"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Mẫu website mỹ phẩm 10480"/>
+<meta property="og:url" content="http://webso.vn/web.php?web=" />
+<meta property="og:description" content="Mẫu website mỹ phẩm 10480" />
+<meta property="og:image" content="http://webso.vn/uploads/noidung/17.png" />
+<meta http-equiv="content-language" content="vi" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="" name="DC.title"/>
+<meta content="VN-SG" name="geo.region"/>
+<meta content="10.7762971,106.60454529999993" name="geo.position"/>
+<meta content="10.7762971,106.60454529999993" name="ICBM"/>
+<meta content="SwctTFqgc0CVi2Vw1F0Y9prB7oslW_DXmzMZXEuVca4" name="google-site-verification"/>
+<link href="https://webso.vn/uploads/config/favicon.png" rel="icon" type="image/x-icon"/>
+<meta name="S0JoWVlXUlVXV1Ntd0JOZUxRY21UZz090" />
+<title>Mẫu website mỹ phẩm 10480</title>
+<link rel="stylesheet" href="https://webso.vn/templates/layout1/css/css.cache.css" />
+<link rel="stylesheet" href="https://webso.vn/templates/layout1/css/css.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://webso.vn/templates/layout1/css/viewweb.css" />
+<script src="https://webso.vn/templates/layout1/js/load.cache.js"></script>
+<style>
+.btn.btn-default.dropdown-toggle.btn-custom{
+    color:#FFF;
+}
+.theme-viewmore{
+    right:25%;
+    width:auto;
+}
+.btn-choose2{
+    display:block;
+}
+@media(max-width:640px){
+    .theme-viewmore{
+        display:none;
+    }
+    .actions.icon-links{
+        display:block !important;
+    }
+    .woologo{
+        display:block !important;
+        width: 100px;
+        background-color: #ffffff0f;
+    }
+    .woologo img{
+        height:auto !important;;
+        margin-top:14px;
+    }
+
+}
+@media(max-width:360px){
+    .btn-choose2{
+        width:50px;
+        overflow:hidden;
+    }
+}
+</style>
+<script language="javascript">
+$(document).ready(function () {
+    var _link = $("#rootPath").data("url");
+    // Modal Product
+    $('.btn-choose2 a').on('click', function() {
+        var _id = $(this).data('id');
+        if (!isNaN( parseFloat(_id) && isFinite(_id) )) {
+            $.getJSON(_link + 'web.php?act=getinfoprod&tokenUser='+$("#tokenUser").data('value'), {
+                id: _id
+            }, function(data) {
+                if (data.error!='success') {
+                } else {
+                    $("#modal-product .modal-title").html('Đăng ký '+data.name);
+                    $("#modal-product #this_product_id").val(data.id);
+                }
+            });
+        }
+    });
+    // RESET INPUT FORM
+    $("#modal-product").on('hidden.bs.modal', function() {
+        $(this).find("input, textarea").val('');
+        $(this).find('.form-group').removeClass('has-error');
+    });
+    $.fn.serializeObject = function() {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function() {
+            if (o[this.name] !== undefined) {
+                if (!o[this.name].push) {
+                    o[this.name] = [o[this.name]];
+                }
+                o[this.name].push(this.value || '');
+            } else {
+                o[this.name] = this.value || '';
+            }
+        });
+        return o;
+    };
+    // Send Info
+    $('#order_product2').on("click", function() {
+        $('#modal-product').wsFormError({
+            notification: true,
+            callback: function(data) {
+                if (data == 0) {
+                    var _id = $("#modal-product").find("#this_product_id").val();
+                    var json_val = JSON.stringify($('#modal-product input, #modal-product textarea').serializeObject());
+                    $.getJSON(_link+'web.php?act=getproduct', {
+                        tokenUser: $('#tokenUser').data('value'),
+                        id: _id,
+                        value: json_val
+                    }, function(data) {
+                        $("#modal-product").modal('hide');
+                        if (data.error!='success') {
+                            swal(data.message, "", "error");
+                        } else {
+                            swal(data.message, "", "success");
+                        }
+                    });
+                }
+            }
+        });
+    });
+
+});
+
+</script>
+</head>
+<body>
+<div class="switcher animated bounceInUp">
+    <a class="switcher-toggle">
+        Bỏ khung
+    </a>
+    <ul class="actions icon-links">
+        <li class="ahotline">
+            <a href="tel:0919 899 357" title="hotline">
+                <i class="fa fa-phone"></i>
+                0919 899 357
+            </a>
+        </li>
+        <li class="btn-choose2">
+                        <a href="#modal-product" data-id="2134" class="purchase" data-toggle="modal" title="Thiết kế với giao diện này">
+                            <i class="fa fa-cart-plus"></i>
+                            Thiết kế với giao diện này
+                        </a>
+        </li>
+    </ul>
+    <a href="https://webso.vn/" class="woologo">
+        <img src="https://webso.vn/uploads/logo/Web-So-.png" alt="" class="img-responsive" />
+    </a>
+    
+        <ul class="respond icon-links">
+            <li>
+                <img src="https://webso.vn/templates/images/responsive.png" class="img-responsive" />
+            </li>
+            <li>
+                <a class="desktop active">
+                    Xem website theo kiểu máy tính
+                </a>
+            </li>
+            <li>
+                <a class="tablet activePortrait inactive" title="Xem website theo kiểu máy tính bảng">Xem website theo kiểu máy tính bảng</a>
+            </li>
+            <li>
+                <a class="phone activePortrait inactive" title="Xem website theo kiểu điện thoại di động">Xem website theo kiểu điện thoại di động</a>
+            </li>
+
+        </ul>
+        <div class="theme-viewmore">
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle btn-custom" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Mẫu website mỹ phẩm 10480
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="theme_viewmore">
+                        <li data-image="https://webso.vn/uploads/noidung/17.png">
+                            <a href="http://webso.vn/web.php?web=10480">Mẫu website mỹ phẩm 10480</a>
+                            <img src="https://webso.vn/uploads/noidung/17.png" alt="Mẫu website mỹ phẩm 10480" class="img-responsive" />
+                        </li>
+                        <li data-image="https://webso.vn/uploads/noidung/16.png">
+                            <a href="http://webso.vn/web.php?web=10479">Mẫu website mỹ phẩm  10479</a>
+                            <img src="https://webso.vn/uploads/noidung/16.png" alt="Mẫu website mỹ phẩm  10479" class="img-responsive" />
+                        </li>
+                        <li data-image="https://webso.vn/uploads/noidung/11.png">
+                            <a href="http://webso.vn/web.php?web=10474">Mẫu website mỹ phẩm 10474</a>
+                            <img src="https://webso.vn/uploads/noidung/11.png" alt="Mẫu website mỹ phẩm 10474" class="img-responsive" />
+                        </li>
+                        <li data-image="https://webso.vn/uploads/noidung/mau-website-my-pham-10472-868.png">
+                            <a href="http://webso.vn/web.php?web=10472">Mẫu website mỹ phẩm 10472</a>
+                            <img src="https://webso.vn/uploads/noidung/mau-website-my-pham-10472-868.png" alt="Mẫu website mỹ phẩm 10472" class="img-responsive" />
+                        </li>
+                        <li data-image="https://webso.vn/uploads/noidung/mau-website-my-pham-10470-370.png">
+                            <a href="http://webso.vn/web.php?web=10470">Mẫu website mỹ phẩm 10470</a>
+                            <img src="https://webso.vn/uploads/noidung/mau-website-my-pham-10470-370.png" alt="Mẫu website mỹ phẩm 10470" class="img-responsive" />
+                        </li>
+                        <li data-image="https://webso.vn/uploads/noidung/5.png">
+                            <a href="http://webso.vn/web.php?web=10468">Mẫu website mỹ phẩm 10468</a>
+                            <img src="https://webso.vn/uploads/noidung/5.png" alt="Mẫu website mỹ phẩm 10468" class="img-responsive" />
+                        </li>
+                        <li data-image="https://webso.vn/uploads/noidung/009_16.png">
+                            <a href="http://webso.vn/web.php?web=10343">Mẫu website thời trang 10343</a>
+                            <img src="https://webso.vn/uploads/noidung/009_16.png" alt="Mẫu website thời trang 10343" class="img-responsive" />
+                        </li>
+                  </ul>
+            </div>
+        </div>
+</div>
+
+    <div class="theme-wrapper notiOS">
+        <iframe src="http://skinlovers.vn/" frameborder="0" height="100%" width="100%" id="theme-demo"></iframe>
+    </div>
+<div class="modal fade " id="modal-product">
+    <div class="modal-dialog"  style="max-width:400px;">
+        <div class="modal-content">
+            <div class="modal-header" style="border:none;">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body order-body ">
+                <form action="https://webso.vn/gui-yeu-cau-bao-gia.html" method="post" />
+                    <input type="hidden" name="urlReturn" value="http://webso.vn/web.php?web=10480" />
+
+                    <input type="hidden" name="id" id="this_product_id" value="" placeholder="" />
+
+                    <div class="form-group icon-input">
+                        <i class="fa fa-user fa-lg" arial-hidden="true"></i>
+                        <input type="text" required name="hoten" class="form-control" placeholder="Họ v&agrave; t&ecirc;n (Bắt buộc)" />
+                    </div>
+
+                    <div class="form-group icon-input">
+                        <i class="fa fa-phone fa-lg"></i>
+                        <input type="text" required name="dienthoai" class="form-control  ws-required-number" data-wserror-phone="Vui lòng nhập vào 1 số điện thoại" placeholder="số điện thoại (Bắt buộc)" />
+                    </div>
+
+                    <div class="form-group icon-input">
+                        <i class="fa fa-comment"></i>
+                        <textarea name="ghichu" class="form-control" rows="3" placeholder="Ghi chú thêm (Không bắt buộc)"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button  type="submit" name="btnsubmitbaogia"  class="btn btn-primary btn-center">
+                            <i class="fa fa-send"></i>&nbsp; Đăng ký mẫu này
+                        </button>
+                        </div>
+                        <div class="form-group">
+                            <p class="phone_ghichu">Hoặc liên hệ với chúng tôi theo hotline:</p>
+                            <p class="phone_hotline"><a class="phone_hotline" style="color:red;" href="tel:"></a></p>
+                        </div>
+                    </div>
+                    </form>
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div id="tokenUser" data-value="a808d5e922650bc"></div>
+<div id="rootPath" data-url=""></div>
+</body>
+
+<!-- Mirrored from webso.vn/web.php?web=10480 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Jul 2024 16:27:01 GMT -->
+</html>
