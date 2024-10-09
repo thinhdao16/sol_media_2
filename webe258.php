@@ -159,7 +159,7 @@ $(document).ready(function () {
         </li>
     </ul>
     <a href="https://webso.vn/" class="woologo">
-        <img src="https://webso.vn/uploads/logo/Web-So-.png" alt="" class="img-responsive" />
+        <img src="./uploads/logo/Web-So-.png" alt="" class="img-responsive" />
     </a>
     
         <ul class="respond icon-links">
