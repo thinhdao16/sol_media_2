@@ -158,6 +158,8 @@ html,body,div,span,applet,object,iframe,blockquote,pre,a,abbr,acronym,address,bi
 
 <p>&nbsp;<span class="fa fa-mobile-phone"></span>&nbsp;&nbsp;<strong>Hotline:</strong>&nbsp;0919 899 357</p>
 
+<p>&nbsp;<span class="fa fa-mobile-phone"
+																		style="color:rgb(250, 0, 0);font-size:22px;"></span>&nbsp;&nbsp;<strong>Điện thoại:</strong>&nbsp;0834 093 908</p>
 <p><strong><span class="fa fa-envelope"></span>&nbsp;Email:</strong>&nbsp;info@webso.vn / webso.vn@gmail.com</p>
 
 <p><strong><span class="fa fa-code"></span>&nbsp;MST:</strong>0311177962&nbsp;</p>
