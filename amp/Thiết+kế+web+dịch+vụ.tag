@@ -169,7 +169,7 @@ html,body,div,span,applet,object,iframe,blockquote,pre,a,abbr,acronym,address,bi
 
 <p style="display: none;"><strong><span class="fa fa-code"></span>&nbsp;MST:</strong>0311177962&nbsp;</p>
 
-<p><strong><span class="fa fa-external-link"></span>&nbsp;Website:</strong>www.webso.vn</p>
+<p style="display: none;"><strong><span class="fa fa-external-link"></span>&nbsp;Website:</strong>www.webso.vn</p>
 <div class="cdma"><div class="clear"></div>
 <p><a href="http://online.gov.vn/Home/WebDetails/28787" rel="noopener" target="_blank"><amp-img src="../uploads/images/20150827110756-dathongbao%20(1)(2).png" alt="Web Sá» ÄÃ£ thÃ´ng bÃ¡o bá» cÃ´ng thÆ°Æ¡ng"  layout="responsive" width="164" height="62"></amp-img></a></p>
 
