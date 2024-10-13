@@ -446,7 +446,7 @@
       display: block;
     }
 
-    #wapper_banner {
+    #wapper_banner { background-color: #fbfbfb !important;
       width: 100%;
       display: block;
       padding: 0;
@@ -3586,7 +3586,7 @@
       color: #ff5c25;
     }
 
-    .menumain>ul>li>ul {
+    .menumain>ul>li>ul {background-color: #fbfbfb !important;
       opacity: 0;
       display: none;
       position: absolute;
@@ -4009,7 +4009,7 @@
         display: block;
       }
 
-      #wapper_banner {
+      #wapper_banner { background-color: #fbfbfb !important;
         display: none;
       }
 
