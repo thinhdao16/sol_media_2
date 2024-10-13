@@ -3559,7 +3559,7 @@ div#anhienmucluc {
     float: left;
 }
 
-.menumain>ul>li>a {
+.menumain>ul>li>a { color:black !important ;
     padding: 18px 15px;
     color: #FFF;
     display: block;
@@ -3615,7 +3615,7 @@ div#anhienmucluc {
     padding: 8px 0px;
 }
 
-.menumain>ul>li>ul>li>a {
+.menumain>ul>li>ul>li>a { color:black !important ;
     color: #FFF;
     font-size: 15px;
     padding: 5px 0px;
@@ -4971,7 +4971,7 @@ ul.tags li a {
 }
 
 @media (max-width: 1024px) {
-    .menumain>ul>li>a {
+    .menumain>ul>li>a { color:black !important ;
         padding: 18px 6px;
     }
 
