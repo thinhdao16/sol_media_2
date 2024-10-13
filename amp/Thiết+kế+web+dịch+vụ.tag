@@ -167,7 +167,7 @@ html,body,div,span,applet,object,iframe,blockquote,pre,a,abbr,acronym,address,bi
 																			style="color:rgb(0, 153, 153);"></span>&nbsp;Email:</strong>&nbsp;contact@solmedia.com</p>
 <p style="display: none;"><strong><span class="fa fa-envelope"></span>&nbsp;Email:</strong>&nbsp;info@webso.vn / webso.vn@gmail.com</p>
 
-<p><strong><span class="fa fa-code"></span>&nbsp;MST:</strong>0311177962&nbsp;</p>
+<p style="display: none;"><strong><span class="fa fa-code"></span>&nbsp;MST:</strong>0311177962&nbsp;</p>
 
 <p><strong><span class="fa fa-external-link"></span>&nbsp;Website:</strong>www.webso.vn</p>
 <div class="cdma"><div class="clear"></div>
