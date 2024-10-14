@@ -2454,7 +2454,7 @@
       padding-left: 10px;
     }
 
-    #btn-right {
+    #btn-right {color: black !important;
       display: none;
     }
 
@@ -3245,7 +3245,7 @@
       width: 25%;
     }
 
-    .menu-bottom {
+    .menu-bottom { display: none important;
       display: none;
       bottom: 0;
       left: 0;
@@ -4005,7 +4005,7 @@
         margin-right: auto;
       }
 
-      #btn-right {
+      #btn-right {color: black !important;
         display: block;
       }
 
@@ -4184,7 +4184,7 @@
         z-index: 888;
       }
 
-      #cssmenu>ul.open+#btn-right {
+      #cssmenu>ul.open+#btn-right {color: black !important;
         display: none;
       }
 
@@ -4211,7 +4211,7 @@
         top: -2px;
       }
 
-      #btn-right {
+      #btn-right {color: black !important;
         cursor: pointer;
         z-index: 999;
         color: #FFF;
@@ -4466,7 +4466,7 @@
         margin-right: auto;
       }
 
-      .menu-bottom {
+      .menu-bottom { display: none important;
         display: block;
       }
 
