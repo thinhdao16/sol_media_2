@@ -158,7 +158,7 @@ $(document).ready(function () {
                         </a>
         </li>
     </ul>
-    <a href="https://webso.vn/" class="woologo">
+    <a href="https://www.solmedia.one/" class="woologo">
         <img src="./uploads/logo/Web-So-.png" alt="" class="img-responsive" />
     </a>
     
