@@ -2393,7 +2393,7 @@
       max-width: 100%;
     }
 
-    .menu_content {
+    .menu_content { background-color: #fbfbfb !important;
       display: block;
       width: 100%;
     }
@@ -4067,7 +4067,7 @@
         display: block;
       }
 
-      .menu_content {
+      .menu_content { background-color: #fbfbfb !important;
         width: 100%;
         position: relative;
         background-color: #222933;
