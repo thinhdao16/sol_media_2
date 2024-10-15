@@ -152,7 +152,7 @@ $(document).ready(function () {
             </a>
         </li>
         <li class="btn-choose2">
-                        <a href="#modal-product" data-id="2181" class="purchase" data-toggle="modal" title="Thiết kế với giao diện này">
+                        <a href="https://www.solmedia.one/lien-he/index.html" data-id="2181" class="purchase" data-toggle="modal" title="Thiết kế với giao diện này">
                             <i class="fa fa-cart-plus"></i>
                             Thiết kế với giao diện này
                         </a>
