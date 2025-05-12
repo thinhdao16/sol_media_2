@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Thêm các quy tắc để xử lý việc loại bỏ .html từ URL cho thư mục con và thư mục gốc
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-zA-Z0-9_-]+)$ $1.html [L]
+
+# Đảm bảo chuyển hướng các tệp từ thư mục con
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)/?$ $1.html [L]
